@@ -16,7 +16,7 @@ const Navbar = () => {
           <Link key={item.name} href={item.route}>
             <p 
               className={
-                `${pathname.includes(item.route) ? "font-bold" : ""} 
+                `${pathname.includes(item.route) ? "font-extrabold" : ""} 
                 text-white text-2xl`
               }
             >{item.name}</p>
