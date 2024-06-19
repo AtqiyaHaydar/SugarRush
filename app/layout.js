@@ -12,7 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="w-full flex justify-center">
-      <body className={`${inter.className} wrapper flex flex-col items-center w-full`}>
+      <body className={`${inter.className} wrapper flex flex-col items-center w-full gap-y-4`}>
         <Navbar />
         {children}
       </body>
