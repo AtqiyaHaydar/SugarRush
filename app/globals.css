@@ -128,7 +128,7 @@ body {
 
 @layer base {
   .wrapper {
-    @apply max-w-7xl p-4 h-screen overflow-hidden
+    @apply max-w-7xl p-4 h-full overflow-y-scroll overflow-x-hidden
   }
 
   .gradient-to-bottom {
