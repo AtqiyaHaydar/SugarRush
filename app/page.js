@@ -12,9 +12,9 @@ const page = () => {
   }, []);
 
   return (
-    <div className="w-full grid grid-cols-3 gap-6 justify-items-stretch text-white">
+    <div className="w-full grid grid-cols-3 gap-4 justify-items-stretch text-white">
       <div
-        className="gradient-to-right col-span-2 h-[410px] rounded-[50px]"
+        className="gradient-to-right col-span-2 h-[400px] rounded-[50px]"
         data-aos="fade-right"
       >
         <div className="flex justify-between w-full px-4 pt-4 ">
@@ -44,8 +44,12 @@ const page = () => {
             Delectable Desserts
           </h2>
         </div>
-        <div className="p-4 w-[83%]" data-aos="fade-right" data-aos-delay="400">
-          <p className="font-OpenSauceSans-Light ml-6 ">
+        <div
+          className="px-4 py-2 w-[87%]"
+          data-aos="fade-right"
+          data-aos-delay="400"
+        >
+          <p className="font-OpenSauceSans-Light ml-6 text-[17px]">
             At Sugar Rush, we craft desserts that delight your taste buds and
             warm your heart. From exquisite cupcakes to delightful pastries,
             discover the sweetest treats in town.
@@ -78,7 +82,7 @@ const page = () => {
           <div>
             <img
               src="home/Cupcake.svg"
-              className="mt-[-100px]"
+              className="mt-[-145px]"
               data-aos="fade-up"
               data-aos-delay="400"
             ></img>
@@ -86,7 +90,10 @@ const page = () => {
         </div>
       </div>
 
-      <div className=" gradient-to-right col-span-1 h-[325px] rounded-[50px] overflow-hidden" data-aos="fade-up" >
+      <div
+        className=" gradient-to-right col-span-1 h-[325px] rounded-[50px] overflow-hidden"
+        data-aos="fade-up"
+      >
         <div className="px-4 pt-4" data-aos="fade-right" data-aos-delay="400">
           <h3 className="font-OpenSauceSans-Regular text-xl ml-6 mt-4">
             Introducing our new
@@ -101,11 +108,39 @@ const page = () => {
             luscious pink glaze and sprinkles in every taste.
           </p>
         </div>
-          <img src="home/Donut.svg" width={300} className="relative bottom-[168px] right-[-178px]" data-aos="fade-up-left" ></img>
+        <img
+          src="home/Donut.svg"
+          width={300}
+          className="relative bottom-[168px] right-[-178px]"
+          data-aos="fade-up-left"
+        ></img>
       </div>
 
-      <div className=" gradient-to-right col-span-1">
-        Dive into our delicious menu!
+      <div
+        className=" gradient-to-right col-span-1 h-[325px] rounded-[50px] overflow-hidden flex flex-col"
+        data-aos="fade-up"
+      >
+        <div className="px-4 pt-4" data-aos="fade-right" data-aos-delay="400">
+          <h3 className="font-OpenSauceSans-Regular text-xl ml-6 mt-4">
+            Explore Our Sweet Selections
+          </h3>
+          <h2 className="font-OpenSauceSans-ExtraBold text-[40px] ml-6 mt-1">
+            Dive into our
+          </h2>
+          <h2 className="font-OpenSauceSans-ExtraBold text-[40px] ml-6 mt-[-12px]">
+            delicious menu!
+          </h2>
+        </div>
+        <button
+          className="flex mx-4 mt-14 h-[75px] rounded-[50px] bg-white bg-opacity-25 justify-center items-center"
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+        >
+          <div className="font-OpenSauceSans-Medium text-white text-[26px] mr-3">
+            Check It Out!
+          </div>
+          <img src="home/Arrow.svg" height={42} width={42}></img>
+        </button>
       </div>
     </div>
   );
