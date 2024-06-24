@@ -12,7 +12,7 @@ const page = () => {
   }, []);
 
   return (
-    <div className="w-full flex flex-col gap-4 mt-4 text-white font-OpenSauceSans-Regular">
+    <div className="w-full h-full flex flex-col gap-4 mt-4 text-white font-OpenSauceSans-Regular">
       <div
         className="w-full h-[45%] relative gradient-to-right rounded-[50px] overflow-hidden"
         data-aos="fade-down"
